@@ -1,0 +1,43 @@
+.card {
+  background-color: #F4F4FF;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 20px;
+  width: 1320px;
+  height: 180px;
+}
+.cardImage {
+  border-radius: 4px;
+  object-fit: cover;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: black;
+}
+.cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  color: black;
+  overflow: hidden;
+  max-height: 2.4em;
+}
+.cardAuthor {
+  font-size:16px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 4px;
+}
+.cardPrice {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6251DD;
+  margin-top: auto;
+}

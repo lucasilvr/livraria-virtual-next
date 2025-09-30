@@ -1,0 +1,52 @@
+.container {
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+  max-width: 1320px; 
+  margin-left: auto;  
+  margin-right: auto; 
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.contentWrapper {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 32px;
+  color: #090937;
+}
+
+.verMaisBtn {
+  display: inline-block;
+  color: #e67a50;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.2s;
+}
+
+
+.cardList {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}

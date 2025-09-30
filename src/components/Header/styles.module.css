@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  height: 120px;
+  box-shadow: 0px 8px 10px rgba(9, 9, 55, 0.02);
+  padding: 70px;
+  box-sizing: border-box;
+}
+.logo { 
+  height: 39px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 220px;
+}
+.headerButtons {
+  display: flex;
+  gap: 10px;
+  margin-right: 220px;
+}
+.iconBtn {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  display: block;
+}
